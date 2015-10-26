@@ -1,0 +1,21 @@
+﻿@{ 
+    Layout = null;
+}
+<!DOCTYPE html>
+<html ng-app="AngularRoutingDemo">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Angular Routing Demo</title>
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    
+    <ng-view></ng-view>
+
+    @Scripts.Render("~/bundles/angular")
+    <script src="~/Scripts/ngApp/app.js"></script>
+    <script src="~/Scripts/ngApp/ViewAController.js"></script>
+    <script src="~/Scripts/ngApp/ViewBController.js"></script>
+</body>
+</html>
